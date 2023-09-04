@@ -13,6 +13,19 @@
 
 Este proyecto se centra en el análisis de manos de póker y el desarrollo de un modelo predictivo para la mejor jugada en una mano dada. El póker es un juego de cartas ampliamente jugado y estudiado, y este proyecto busca calcular las probabilidades de obtener diferentes manos de póker y mejorar la toma de decisiones en el juego mediante un modelo predictivo.
 
+[Dataset](https://www.kaggle.com/datasets/anupamujawane/poker-hands-dataset?datasetId=1355560)
+
+Acerca de este archivo
+
+Cada registro es un ejemplo de una mano que consiste en cinco cartas extraídas de una baraja estándar de 52. Cada carta se describe utilizando dos atributos (palo y rango), para un total de 10 atributos predictivos. Hay un atributo de clase que describe la "mano de póker".
+
+Información de atributos:
+
+* S1 - "Suit of card #1" Ordinal (1-4) que representa {Corazones, Picas, Diamantes, Clubes}
+* C1 - "Rango de la carta #1" Numérico (1-13) que representa (As, 2, 3, ... , Reina, Rey)
+
+Y asi sucesivamente...
+
 ## Objetivos
 
 El proyecto tiene dos objetivos principales:
@@ -52,7 +65,7 @@ source myenv/bin/activate
 myenv\Scripts\activate
 ```
 
-2. **Obtención de Datos:** Descarga o carga los datos de manos de póker en el directorio `/data/raw` de este repositorio.
+2. **Obtención de Datos:** [Dataset](https://www.kaggle.com/datasets/anupamujawane/poker-hands-dataset?datasetId=1355560)
 
 3. **Análisis Exploratorio de Datos:** Explora los Jupyter notebooks en el directorio `/notebooks/exploratory` para comprender la distribución de las manos de póker y las probabilidades calculadas.
 
