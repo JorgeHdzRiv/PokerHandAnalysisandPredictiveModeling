@@ -37,6 +37,21 @@ Para aprovechar al máximo este proyecto, sigue estos pasos:
 
 1. **Configuración del Entorno:** Asegúrate de tener Python instalado en tu sistema y configura un entorno virtual para este proyecto.
 
+```bash
+# Crear un entorno virtual
+python -m venv myenv
+```
+
+```bash
+# Activar el entorno virtual (Linux/macOS)
+source myenv/bin/activate
+```
+
+```bash
+# Activar el entorno virtual (Windows)
+myenv\Scripts\activate
+```
+
 2. **Obtención de Datos:** Descarga o carga los datos de manos de póker en el directorio `/data/raw` de este repositorio.
 
 3. **Análisis Exploratorio de Datos:** Explora los Jupyter notebooks en el directorio `/notebooks/exploratory` para comprender la distribución de las manos de póker y las probabilidades calculadas.
